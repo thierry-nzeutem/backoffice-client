@@ -1,9 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { 
-  Download, 
-  Lock, 
-  Eye, 
-  EyeOff, 
+  Lock,
+  Eye,
+  EyeOff,
   Check, 
   X, 
   MessageSquare, 
