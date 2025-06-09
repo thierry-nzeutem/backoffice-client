@@ -2,10 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { 
   Bell, 
   CheckCircle, 
-  Clock, 
-  FileText, 
-  MessageSquare, 
-  Calendar, 
+  Clock,
+  FileText,
+  MessageSquare,
   AlertTriangle,
   X,
   Settings,
@@ -273,7 +272,16 @@ export const NotificationSystem: React.FC = () => {
             <div>
               <select
                 value={filter}
-                onChange={(e) => setFilter(e.target.value as any)}
+                onChange={(e) =>
+                  setFilter(
+                    e.target.value as
+                      | 'all'
+                      | 'unread'
+                      | 'document'
+                      | 'message'
+                      | 'deadline'
+                  )
+                }
                 className="text-sm border-gray-300 rounded-md shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"
               >
                 <option value="all">Tous</option>
