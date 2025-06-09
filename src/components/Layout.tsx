@@ -147,7 +147,7 @@ export const Layout: React.FC<LayoutProps> = ({
                 className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               >
-                <span className="sr-only">Open main menu</span>
+                <span className="sr-only">Ouvrir le menu principal</span>
                 {isMobileMenuOpen ? (
                   <X className="block h-6 w-6" aria-hidden="true" />
                 ) : (
