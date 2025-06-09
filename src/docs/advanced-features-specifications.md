@@ -1690,7 +1690,7 @@ L'espace collaboratif "TeamSpace" offre aux équipes internes des clients un env
     // Contenu spécifique au type
   },
   source: {
-    type: "string", // "upload", "preveris", "external"
+    type: "string", // "upload", "Prévéris", "external"
     reference: "string" // ID ou URL de référence
   },
   permissions: {
